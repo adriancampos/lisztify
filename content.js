@@ -1,4 +1,5 @@
-function matchCase(text, pattern) {
+// below should break build
+//function matchCase(text, pattern) {
     var result = '';
 
     for(var i = 0; i < text.length; i++) {
