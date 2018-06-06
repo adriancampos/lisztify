@@ -1,26 +1,26 @@
 // below should break build
 //function matchCase(text, pattern) {
-    var result = '';
+//     var result = '';
 
-    for(var i = 0; i < text.length; i++) {
-        var c = text.charAt(i);
-        var p = pattern.charCodeAt(i);
+//     for(var i = 0; i < text.length; i++) {
+//         var c = text.charAt(i);
+//         var p = pattern.charCodeAt(i);
 
-        if(p >= 65 && p < 65 + 26) {
-            result += c.toUpperCase();
-        } else {
-            result += c.toLowerCase();
-        }
-    }
+//         if(p >= 65 && p < 65 + 26) {
+//             result += c.toUpperCase();
+//         } else {
+//             result += c.toLowerCase();
+//         }
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
-var elements = document.getElementsByTagName('*');
+// var elements = document.getElementsByTagName('*');
 
-for (var i = 0; i < elements.length; i++) {
-    var element = elements[i];
-
+// for (var i = 0; i < elements.length; i++) {
+//     var element = elements[i];
+syntax err0r;
     for (var j = 0; j < element.childNodes.length; j++) {
         var node = element.childNodes[j];
 
