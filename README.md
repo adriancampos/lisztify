@@ -1,1 +1,1 @@
-A Chrome extension that replaces Lisztifies lists.
+A Chrome extension that Lisztifies lists.
